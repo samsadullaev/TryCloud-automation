@@ -17,6 +17,7 @@ public class Driver {
 
 
         if(driver==null){
+            String sam;
 
            String browser= ConfigurationReader.getProperty("browser").toLowerCase();
 
