@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
     features ="src/test/resources/features",
         glue = "com/TryCloud/step_definitions",
         dryRun = false, //gives snippets when true
-        tags = ""
+        tags = "@wip"
 )
 
 //instantiate-creating object
