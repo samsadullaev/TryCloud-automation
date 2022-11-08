@@ -1,6 +1,6 @@
 Feature:  user should de able to log in
 
-@wip
+
   Scenario Outline: verify user login with valid credentials
     Given  user on the login page
     When user enter valid username "<username>" and password "<password>"
