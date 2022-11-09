@@ -14,24 +14,24 @@ public class LoginPage {
     }
 
     @FindBy(xpath = "//input[@id='user']")
-    public WebElement inputUsername;
+    public static WebElement inputUsername;
 
 
     @FindBy(id = "password")
-    public WebElement inputPassword;
+    public static WebElement inputPassword;
 
     @FindBy(id = "submit-form")
-    public WebElement loginBtn;
+    public static WebElement loginBtn;
 
 
     @FindBy (xpath = "//p[@class='warning wrongPasswordMsg']")
     public WebElement message;
 
-    public void setUpURL(){
+    public static void setUpURL(){
         Driver.getDriver().get(ConfigurationReader.getProperty("env"));
 
     }
-    public void login(String username, String password){
+    public static void login(String username, String password){
         inputUsername.sendKeys(username);
         inputPassword.sendKeys(password);
         loginBtn.click();

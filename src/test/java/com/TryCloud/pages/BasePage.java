@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.List;
-
 public class BasePage {
 
     public  BasePage(){
@@ -15,8 +13,8 @@ public class BasePage {
 
 
 
-    @FindBy(xpath = "//ul[@id='appmenu']//li//a")
-    public List<WebElement> modules;
+   // @FindBy(xpath = "//ul[@id='appmenu']//li//a")
+   // public List<WebElement> modules;
 
 
     @FindBy(xpath = "//*[@id='appmenu']//li[@data-id='dashboard']//a")
