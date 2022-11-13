@@ -14,14 +14,14 @@ import org.junit.runner.RunWith;
         },
 
     features ="src/test/resources/features",
-        glue = "com/TryCloud/step_definitions",
-        dryRun = false, //gives snippets when true
-        tags = "@wip"
+        glue = "com/cydeo/step_definitions",
+        dryRun = true, //gives snippets when true
+        tags = "@us_04"
 )
 
 //instantiate-creating object
 //every interface has default abstract method
 //final you have to give a value
-//static you dont have to give value
+//static you don't have to give value
 public class CukesRunner {
 }

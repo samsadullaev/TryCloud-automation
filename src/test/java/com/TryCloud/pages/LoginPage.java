@@ -32,10 +32,9 @@ public class LoginPage {
 
     }
     public static void login(String username, String password){
-        inputUsername.sendKeys(username);
-        inputPassword.sendKeys(password);
+        inputUsername.sendKeys(ConfigurationReader.getProperty(username));
+        inputPassword.sendKeys(ConfigurationReader.getProperty(password));
         loginBtn.click();
-
     }
 
 }
