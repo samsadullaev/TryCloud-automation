@@ -20,10 +20,16 @@ public class BrowserUtils {
             e.printStackTrace();
 
         }
-
-
-
         }
+
+    public static boolean isAllSelected(List<WebElement> allFiles){
+        for (WebElement file : allFiles) {
+            if(!file.isSelected()){
+                return false;
+            }
+        }
+        return true;
+    }
     public static void verifyTitle( String expectedTitle){
         String actualTitle = Driver.getDriver().getTitle();
         Assert.assertEquals(actualTitle,expectedTitle);

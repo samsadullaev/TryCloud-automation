@@ -17,7 +17,7 @@ public class CommentsToFileFolders_StepDef {
 
     BasePage basePage = new BasePage();
     String expectedFavoriteThreeDat;
-    LoginPage loginPage = new LoginPage();
+
     @Given("user on the dashboard page")
     public void user_on_the_dashboard_page() {
         LoginPage.setUpURL();
