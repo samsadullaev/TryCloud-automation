@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
     features ="src/test/resources/features",
         glue = "com/cydeo/step_definitions",
         dryRun = true, //gives snippets when true
-        tags = "@us_04"
+        tags = "@us_10"
 )
 
 //instantiate-creating object

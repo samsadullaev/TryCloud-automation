@@ -19,18 +19,10 @@ public class UpdateSettingsPage {
 
     @FindBy(xpath = "//div[@id='app-settings-content']//label")
     public List<WebElement> checkBoxfiles;
-/*
-    @FindBy(id= "files-setting-richworkspace")
-    public WebElement settingsCheckbox1;
-
-    @FindBy(id= "recommendations-setting-enabled")
-    public WebElement settingsCheckboxes2;
-
-    @FindBy(id= "files-setting-showhidden")
-    public WebElement settingsCheckboxes3;
 
 
-*/
+    @FindBy(xpath= "")
+    public WebElement currentStorage;
 
 
 
