@@ -12,6 +12,8 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class US_07_AddTheFolder_StepDef {
+
+
     FilePage us7_page = new FilePage();
     //LocalTime myObj = LocalTime.now();
     //  WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 5);
@@ -21,7 +23,7 @@ public class US_07_AddTheFolder_StepDef {
 
     @When("user clicks the add icon on the top")
     public void user_clicks_the_add_icon_on_the_top() {
-        BrowserUtils.waitFor(5);
+        BrowserUtils.waitFor(1);
         us7_page.addBtn.click();
 
 
